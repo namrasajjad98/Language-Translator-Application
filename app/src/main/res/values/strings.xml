@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">language_translator_app</string>
+    <string-array name="languagesFrom">
+        <item>From</item>
+        <item>English (en)</item>
+        <item>Urdu (ur)</item>
+        <item>Spanish (es)</item>
+        <item>French (fr)</item>
+        <item>German (de)</item>
+        <item>Chinese (zh)</item>
+        <item>Hindi (hi)</item>
+        <item>Arabic (ar)</item>
+        <item>Russian (ru)</item>
+        <item>Japanese (ja)</item>
+        <item>Portuguese (pt)</item>
+</string-array>
+
+    <string-array name="languagesTo">
+        <item>To</item>
+        <item>English (en)</item>
+        <item>Urdu (ur)</item>
+        <item>Spanish (es)</item>
+        <item>French (fr)</item>
+        <item>German (de)</item>
+        <item>Chinese (zh)</item>
+        <item>Hindi (hi)</item>
+        <item>Arabic (ar)</item>
+        <item>Russian (ru)</item>
+        <item>Japanese (ja)</item>
+        <item>Portuguese (pt)</item>
+    </string-array>
+</resources>

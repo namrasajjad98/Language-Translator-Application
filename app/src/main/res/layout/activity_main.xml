@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language Translator "
+        android:textColor="#BF8125"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to translate"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/corner"
+        android:layout_marginTop="65dp"
+        android:padding="15dp"/>
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languagesFrom"
+        android:background="@drawable/corner"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <Spinner
+        android:id="@+id/languageSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languagesTo"
+        android:background="@drawable/corner"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#BF8125"/>
+
+    <TextView
+        android:id="@+id/translatedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Translated text will appear here"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:paddingTop="20dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
